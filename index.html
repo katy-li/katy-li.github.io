@@ -38,12 +38,34 @@
                     <a class="navtext" href="Comparison.html"><i class="fas fa-balance-scale"></i> &ensp; Comparison
                       <span class="sr-only">(current)</span>
                     </a>
+                <li class="active">
+                    <a class="navtext" href="MaxTemp.html"><i class="fas fa-signal"></i> &ensp; Max Temp
+                      <span class="sr-only">(current)</span>
+                    </a>
                 </li>
-                <!--dropdown-->
+                 <li class="active">
+                    <a class="navtext" href="Cloudiness.html"><i class="fas fa-signal"></i> &ensp; Cloudiness
+                      <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="navtext" href="Windspeed.html"><i class="fas fa-signal"></i> &ensp; Windspeed
+                      <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="navtext" href="Humidity.html"><i class="fas fa-signal"></i> &ensp; Humidity
+                      <span class="sr-only">(current)</span>
+                    </a>
+                </li>                                               
+<!-- this code is the one that I think needed JS and i couldn't quite get it to work, 
+but i like how it looks so I am leaving the code
+
                   <li class="dropdown">
                       <a href="#" data-toggle="dropdown" class="dropdown-toggle navtext"><i class="fas fa-signal"></i> &ensp; Plots
                         <span class="caret"></span>
                       </a>
+
                       <ul class="dropdown-menu">
                         <li><a href='MaxTemp.html'>Max Temperature</a></li>
                         <li><a href='Cloudiness.html'>Cloudiness</a></li>
@@ -54,13 +76,16 @@
                         <li><a href='Comparison.html'>Comparison</a></li>
                       </ul>
 
-                      <select id="nav-vis">
-                        <option value='Home'>Home</option>
+I had issues getting this to graphically work, I think the solution i originally created needed JS,
+but i could be wrong about that. Since I didn't like how it looked I decided to not include the dropdown, 
+so instead i left the one i started. and made header buttons instead
+                      {% comment %} <select id="nav-vis">
+                        <option value='Plots'>Plots</option>
                         <option href='MaxTemp.html'>Max Temperature</option>
                         <option href='Cloudiness.html'>Cloudiness</option>
                         <option href='Windspeed.html'>Windspeed</option>
                         <option href='Humidity.html'>Humidity</option>
-                      </select>
+                      </select> {% endcomment %}-->
                  </li>
             </ul>
         </div>
