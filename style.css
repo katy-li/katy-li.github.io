@@ -53,3 +53,6 @@ p{
 .navcolor2 {
     background: black;
   }
+#navselect{
+  visibility: hidden;
+}
