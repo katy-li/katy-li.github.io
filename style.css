@@ -48,82 +48,8 @@ p{
 .vizcolor{
   color: white;
 }
-/* #navlabel{
-  background-color: teal;
-  padding: 40px;
-  margin: 0px;
-  border: 0px;
-}
-h1 {
-    font-size: 40px;
-    font-family: 'Source Serif Pro', serif;
-    background-color: white;
-    padding: 10px;s
-    margin-bottom:0px;
-    padding-bottom: 0px;
-    margin-top:15px;
-  }
-p {
-    font-size: 24px;
-    font-family: 'Dosis', sans-serif;    
-    background-color: white; 
-    margin-top: 0px;
-    margin-bottom:0px;
-    padding-bottom: 0px; 
-    height:500px; 
-}
-.viz{
-  width:300px;
-}
-.viz_img{
-  width:300px;
-}
-.left{
-    float: left;
-    width: 600px;
-}
-h3 {
-    font-size: 30px;
-    font-family: 'Dosis', sans-serif;
-  }
-header {
-    font-family: 'Dosis', sans-serif;
-}
-.navbar li {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background: white;
-    border-radius: 3px;
-    font-family: 'Dosis', sans-serif; 
-  }
-  
-#nav-select {
-    visibility: hidden;
-    font-family: 'Dosis', sans-serif; 
-} */
-  
-/* @media (max-width: 880px) {
-  .navbar li {
-    padding: 10px;
-    font-family: 'Dosis', sans-serif; 
-  }
 
-  .post {
-    margin-right: 30px;
-    margin-left: 30px;
-    font-family: 'Dosis', sans-serif; 
+@media (max-width: 480px) {
+.navcolor2 {
+    background: black;
   }
-
-  .navbar ul {
-    visibility: hidden;
-    font-family: 'Dosis', sans-serif; 
-  }
-
-  #nav-select {
-    visibility: visible;
-    font-family: 'Dosis', sans-serif; 
-  }
-} */
